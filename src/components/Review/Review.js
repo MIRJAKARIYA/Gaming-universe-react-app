@@ -1,7 +1,6 @@
 import React from 'react';
 const Review = ({rev}) => {
     const {name, rating, review, userImg} = rev;
-    console.log(review)
     return (
         <div className="max-w-sm bg-[#406882] text-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 p-2">
             <div className="flex flex-col items-center">
