@@ -18,6 +18,7 @@ function App() {
           <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
           <Route path='/blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/about' element={<About></About>}></Route>
+          <Route path='*' element={<h1>404 NOT FOUND</h1>}></Route>
         </Routes>
     </div>
   );
