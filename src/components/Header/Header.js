@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='border-2 border-red-500 flex justify-between'>
+        <div className='flex justify-between p-4 bg-slate-500 text-white items-center'>
             <div>
                 <Link to={'/home'}>
-                    <h4>Gaming mania</h4>
+                    <h1 className='text-3xl'>Gaming mania</h1>
                 </Link>
             </div>
             <div className='flex'>
-                <Link to={'/home'}>HOME</Link>
-                <Link to={'/reviews'}>REVIEWS</Link>
-                <Link to={'/dashboard'}>DASHBOARD</Link>
-                <Link to={'/blogs'}>BLOGS</Link>
-                <Link to={'/about'}>ABOUT</Link>
+                <Link className='mr-3' to={'/home'}>HOME</Link>
+                <Link className='mr-3' to={'/reviews'}>REVIEWS</Link>
+                <Link className='mr-3' to={'/dashboard'}>DASHBOARD</Link>
+                <Link className='mr-3' to={'/blogs'}>BLOGS</Link>
+                <Link className='mr-3' to={'/about'}>ABOUT</Link>
             </div>
         </div>
     );
