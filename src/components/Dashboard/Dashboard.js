@@ -19,15 +19,15 @@ const Dashboard = () => {
             <MyLineChart data={graphData}></MyLineChart>
         </div>
         <div className="chart-box-style">
-            <h1 className="text-2xl text-center mb-4">Invesment VS Revenue</h1>
+            <h1 className="text-2xl text-center mb-4">Investment VS Revenue</h1>
             <MyAreaChart data={graphData}></MyAreaChart>
         </div>
         <div className="chart-box-style">
-        <h1 className="text-2xl text-center mb-4">Invesment VS Revenue</h1>
+        <h1 className="text-2xl text-center mb-4">Investment VS Revenue</h1>
             <MyBarChart data={graphData}></MyBarChart>
         </div>
         <div className="chart-box-style">
-        <h1 className="text-2xl text-center">Invesment VS Revenue</h1>
+        <h1 className="text-2xl text-center">Investment VS Revenue</h1>
             <MyPieChart data={graphData}></MyPieChart>
         </div>
         
