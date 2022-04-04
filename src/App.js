@@ -10,6 +10,7 @@ import 'flowbite';
 import DhakaOffice from './components/DhakaOffice/DhakaOffice';
 import NewDelhiOffice from './components/NewDelhiOffice/NewDelhiOffice';
 import NewYorkOffice from './components/NewYorkOffice/NewYorkOffice';
+import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,7 @@ function App() {
             <Route path='newdelhioffice' element={<NewDelhiOffice></NewDelhiOffice>}></Route>
             <Route path='newyorkoffice' element={<NewYorkOffice></NewYorkOffice>}></Route>
           </Route>
-          <Route path='*' element={<h1>404 NOT FOUND</h1>}></Route>
+          <Route path='*' element={<NotFound></NotFound>}></Route>
         </Routes>
     </div>
   );
