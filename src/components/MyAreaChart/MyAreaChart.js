@@ -11,7 +11,6 @@ import {
 
 const MyAreaChart = ({data}) => {
   return (
-    <div>
       <AreaChart
         width={400}
         height={300}
@@ -22,6 +21,7 @@ const MyAreaChart = ({data}) => {
           left: 0,
           bottom: 0,
         }}
+        className="mx-auto"
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
@@ -43,7 +43,6 @@ const MyAreaChart = ({data}) => {
           fill="#247881"
         />
       </AreaChart>
-    </div>
   );
 };
 

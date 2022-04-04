@@ -3,7 +3,6 @@ import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "r
 
 const MyLineChart = ({data}) => {
   return (
-    <div>
       <LineChart
         width={400}
         height={300}
@@ -14,6 +13,7 @@ const MyLineChart = ({data}) => {
           left: 20,
           bottom: 5,
         }}
+        className="mx-auto"
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
@@ -27,7 +27,6 @@ const MyLineChart = ({data}) => {
           activeDot={{ r: 8 }}
         />
       </LineChart>
-    </div>
   );
 };
 

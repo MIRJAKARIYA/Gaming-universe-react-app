@@ -1,11 +1,9 @@
 import React from "react";
-import { Legend, Pie, PieChart, Tooltip } from "recharts";
+import { Pie, PieChart, Tooltip } from "recharts";
 
 const MyPieChart = ({data}) => {
   return (
-    <div>
-        <h1 className="text-2xl ml-5">Invesment VS Revenue</h1>
-      <PieChart width={400} height={400}>
+      <PieChart width={400} height={300} className="mx-auto">
           <Tooltip />
         <Pie
           data={data}
@@ -13,7 +11,7 @@ const MyPieChart = ({data}) => {
           cx="50%"
           cy="50%"
           outerRadius={60}
-          fill="#8884d8"
+          fill="#370665"
         />
         <Pie
           data={data}
@@ -22,11 +20,10 @@ const MyPieChart = ({data}) => {
           cy="50%"
           innerRadius={70}
           outerRadius={90}
-          fill="#82ca9d"
+          fill="#35589A"
           label
         />
       </PieChart>
-    </div>
   );
 };
 
