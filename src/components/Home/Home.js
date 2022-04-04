@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='w-[80%] mx-auto mt-16'>
-                <h1 className='text-3xl font-semibold text-center'>Player review's</h1>
+                <h1 className='text-3xl font-semibold text-center'>Player review's({threeReviews.length})</h1>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 md:w-[85%] justify-items-center mx-auto mt-6'>
                         {
                             threeReviews.map(rev => <Review key={rev.reviewId} rev={rev}></Review>)
