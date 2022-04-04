@@ -1,16 +1,16 @@
 import React from 'react';
-
+import './Blogs.css';
 const Blogs = () => {
     return (
         <div className='mt-20'>
-            <div className='lg:w-4/6 w-[95%] shadow-xl p-3 mx-auto bg-blue-500 rounded-lg mb-5'>
+            <div className='lg:w-4/6 w-[95%] p-3 mx-auto mb-5 blog-style'>
                 <h1 className='text-3xl font-mono font-bold'>What is context API and its purpose?</h1>
                 <p className='text-xl'>
                     The Context API is a React Structure and by using it we can pass data too any child component without prop-drilling.In a typical react Application we pass data from a parent component to a child component via props.
                     In a complex react application where we need to pass data to the nested components, this props drilling becomes very cumbersome so to overcome this problem react introduced an API called context API and by using it we can pass data to the nested components without the trouble of props drilling.
                 </p>
             </div>
-            <div className='lg:w-4/6 w-[95%] shadow-xl p-3 mx-auto bg-blue-500 rounded-lg mb-5'>
+            <div className='lg:w-4/6 w-[95%] p-3 mx-auto mb-5 blog-style'>
                 <h1 className='text-3xl font-mono font-bold'>What is semantic HTML elements?</h1>
                 <p className='text-xl'>Semantic HTML is a kind of HTML that focuses on labeling code in a way that is useful and relevant to both the developer and the browser.
                 for example a &lt;div&gt; tells nothing about the content it contains whereas &lt;header&gt; tells us that it contains the heading of the webpage. 
@@ -18,7 +18,7 @@ const Blogs = () => {
                 Some Semantic elements: &lt;article&gt; , &lt;main&gt; , &lt;header&gt; , &lt;footer&gt; , &lt;section&gt; , &lt;aside&gt; , &lt;nav&gt;, &lt;summary&gt; etc.
                 </p>
             </div>
-            <div className='lg:w-4/6 w-[95%] shadow-xl p-3 mx-auto bg-blue-500 rounded-lg'>
+            <div className='lg:w-4/6 w-[95%] p-3 mx-auto blog-style'>
                 <h1 className='text-3xl font-mono font-bold'>What are the differences among inline,inline-block and block elements?</h1>
                 <p className='text-xl'>There are many differences among inline,inline-block and block elements.Some differences are shown below:</p>
                 <ul className='list-decimal list-inside text-lg'>
