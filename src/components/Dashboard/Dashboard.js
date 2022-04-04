@@ -13,7 +13,7 @@ const Dashboard = () => {
   },[])
 
   return (
-    <div className='grid lg:grid-cols-2 gap-10 w-[80%] mt-10 mx-auto'>
+    <div className='grid lg:grid-cols-2 gap-10 w-[80%] my-10 mx-auto'>
         <div className="chart-box-style">
             <h1 className="text-2xl text-center mb-4">Month wise sell</h1>
             <MyLineChart data={graphData}></MyLineChart>

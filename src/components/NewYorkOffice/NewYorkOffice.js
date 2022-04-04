@@ -6,7 +6,7 @@ const NewYorkOffice = () => {
         <div>
             <img src={NewYork} className="rounded-lg w-[350px] h-[250px]" alt="" />
         </div>
-        <div className="text-xl text-white">
+        <div className="text-xl mt-2 md:mt-0 text-white">
             <p>Street: 20 Cooper Square</p>
             <p>City: New York</p>
             <p>Phone: +112789564879</p>

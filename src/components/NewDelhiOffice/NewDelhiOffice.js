@@ -6,7 +6,7 @@ const NewDelhiOffice = () => {
         <div>
             <img src={NewDelhi} className="rounded-lg w-[350px] h-[250px]" alt="" />
         </div>
-        <div className="text-xl text-white">
+        <div className="text-xl mt-2 md:mt-0 text-white">
             <p>Street: 20/6 Pandara Road.</p>
             <p>City: New Delhi</p>
             <p>Phone: +9108120154209</p>

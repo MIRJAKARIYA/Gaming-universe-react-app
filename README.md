@@ -1,5 +1,5 @@
 # GAMING UNIVERSE #
-Live link of the website: [gaming universe..](https://github.com/facebook/create-react-app).
+Live link of the website: [GamingUniverse..](https://gaminguniverse.netlify.app/).
 
 ## Description: ##
 * Home page contains a main picture of the game and some information about it.The page also contains three reviews about the game.

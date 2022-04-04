@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='flex md:flex-row flex-col justify-between p-6 bg-slate-600 text-white items-center sticky top-0'>
+        <div className='flex md:flex-row flex-col justify-between p-6 z-10 bg-slate-600 text-white items-center sticky top-0'>
             <div>
                 <Link to={'/home'}>
                     <h1 className='text-4xl font-bold'>GAMING UNIVERSE</h1>

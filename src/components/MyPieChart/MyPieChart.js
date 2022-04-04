@@ -7,7 +7,7 @@ const MyPieChart = ({data}) => {
           <Tooltip />
         <Pie
           data={data}
-          dataKey="revenue"
+          dataKey="investment"
           cx="50%"
           cy="50%"
           outerRadius={60}
@@ -15,7 +15,7 @@ const MyPieChart = ({data}) => {
         />
         <Pie
           data={data}
-          dataKey="investment"
+          dataKey="revenue"
           cx="50%"
           cy="50%"
           innerRadius={70}
